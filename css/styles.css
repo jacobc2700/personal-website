@@ -1,0 +1,58 @@
+body {
+  font-family: Lato, 'Lucida Grande', Tahoma, Sans-Serif;
+}
+
+.navigation-bar {
+  background: #1d1b1b !important;
+  border-bottom: 0.5px solid white;
+}
+
+.header-div {
+  text-align: center;
+}
+
+.project-card {
+  text-align: center;
+  width: 20%;
+}
+
+#projects {
+  padding: 100px;
+  text-align: center;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+#title {
+  height: 100vh;
+}
+
+.project-col {
+  padding: 2% 2%;
+}
+
+/* Styles for footer */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #1d1b1b;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+  font-size: 30px;
+  color: white;
+}
+
+.footer-text {
+  font-size: 20px;
+}
+
+#footer a:hover {
+  text-decoration: none;
+}
