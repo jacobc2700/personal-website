@@ -11,3 +11,6 @@ responsive web design:
 - put comments organizing the styles
 - links in about me section
 - link to source for this website
+
+add particle js
+expand nav when phone is in landscape mode
