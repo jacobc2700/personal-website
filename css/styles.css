@@ -74,6 +74,16 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 715px) {
+  .technology-list {
+    display: none;
+  }
+
+  /* .other-projects {
+    text-align: center;
+  } */
+}
+
 h1 {
   line-height: 1.5;
   font-size: 3.5em;
