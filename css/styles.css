@@ -1,6 +1,11 @@
 body {
   font-family: Lato, 'Lucida Grande', Tahoma, Sans-Serif;
+  /* overflow-x: hidden; */
+}
+
+#main-container {
   overflow-x: hidden;
+  position: relative;
 }
 
 .navbar-brand {
