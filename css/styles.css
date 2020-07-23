@@ -2,6 +2,10 @@ body {
   font-family: Lato, 'Lucida Grande', Tahoma, Sans-Serif;
 }
 
+.navbar-brand {
+  font-size: 2em;
+}
+
 .navigation-bar {
   background: #1d1b1b !important;
   border-bottom: 0.5px solid white;
@@ -11,7 +15,18 @@ body {
 
 .header-div {
   text-align: center;
+  top: 42%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* .header-h1 {
+  width: 100%;
+  left: 0;
+} */
 
 .project-card {
   text-align: center;
