@@ -14,3 +14,5 @@ responsive web design:
 
 add particle js
 expand nav when phone is in landscape mode
+
+media query, to center the other projects section whenever the technologies list goes away

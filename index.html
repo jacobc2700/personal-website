@@ -57,7 +57,7 @@
         <div class="row">
           <div class="header-div col-lg-12">
             <h1 class="header-h1">Hello, I'm Humboo.</h1>
-            <button class="btn btn-lg btn-secondary">
+            <button class="explore-btn btn btn-lg btn-secondary">
               Explore &nbsp; <i class="fa fa-arrow-down"></i>
             </button>
           </div>
@@ -223,11 +223,10 @@
         src="https://kit.fontawesome.com/4e27ae35df.js"
         crossorigin="anonymous"
       ></script>
-      <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"
-      ></script>
+
+      <!-- updated version of jquery? -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
       <script
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -238,6 +237,19 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"
       ></script>
+
+      <!-- Move to another file later -->
+      <!-- Scrolls down when you click on explore btn -->
+      <script>
+        $('.explore-btn').click(function () {
+          $([document.documentElement, document.body]).animate(
+            {
+              scrollTop: $('#about').offset().top,
+            },
+            1500
+          );
+        });
+      </script>
     </body>
   </div>
 </html>
