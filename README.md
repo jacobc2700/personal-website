@@ -6,7 +6,8 @@ My personal website.
 
 - There are two different versions of this website.
 - The original version of this website was made with these technologies:
-- Bootstrap (Darkly), Font Awesome, CSS, JavaScript, jQuery.
+- Bootstrap (Darkly), Font Awesome, CSS, HTML, JavaScript, jQuery.
+- I decided to make a second version of this website with React because there was too much code reuse with the HTML version.
 
 responsive web design:
 
