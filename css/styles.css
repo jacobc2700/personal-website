@@ -1,11 +1,14 @@
+/* Body and main container */
+
 body {
   font-family: Lato, 'Lucida Grande', Tahoma, Sans-Serif;
-  /* overflow-x: hidden; */
 }
 
 #main-container {
   overflow-x: hidden;
 }
+
+/* Styles for navigation bar */
 
 .navbar-brand {
   font-size: 2em;
@@ -16,7 +19,10 @@ body {
   border-bottom: 0.5px solid white;
 }
 
-/* Styles for navigation bar */
+.nav-link {
+  font-size: 1.05em;
+  text-transform: uppercase;
+}
 
 .header-div {
   text-align: center;
@@ -28,11 +34,6 @@ body {
   margin-right: auto;
 }
 
-/* .header-h1 {
-  width: 100%;
-  left: 0;
-} */
-
 .project-card {
   text-align: center;
   width: 20%;
@@ -41,9 +42,6 @@ body {
 #projects {
   padding: 100px;
   text-align: center;
-}
-
-#about-header {
 }
 
 #about {
@@ -78,10 +76,6 @@ a:hover {
   .technology-list {
     display: none;
   }
-
-  /* .other-projects {
-    text-align: center;
-  } */
 }
 
 h1 {
@@ -98,7 +92,7 @@ h1 {
   padding: 2% 2%;
 }
 
-/* Styles for footer */
+/* Footer */
 
 #footer {
   padding: 7% 15%;
@@ -106,22 +100,22 @@ h1 {
   background-color: #1d1b1b;
 }
 
+/* Font awesome footer icons */
 .footer-icon {
   margin: 20px 10px;
   font-size: 30px;
   color: white;
 }
 
+/* Designed by Jacob */
 .footer-text {
   font-size: 20px;
 }
 
-#footer a:hover {
-  /* text-decoration: none; */
-  /* color: #00bc8c; */
-}
-
+/* Turn font awesome icons green on hover */
 i:hover {
   color: #00bc8c;
   text-decoration: none;
 }
+
+/* Media queries for responsive design */
