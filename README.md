@@ -6,7 +6,7 @@ My personal website.
 
 - There are two different versions of this website.
 - The original version of this website was made with these technologies:
-- Bootstrap, Font Awesome, CSS, JavaScript, jQuery.
+- Bootstrap (Darkly), Font Awesome, CSS, JavaScript, jQuery.
 
 responsive web design:
 
