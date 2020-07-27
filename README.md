@@ -5,8 +5,8 @@ My personal website.
 ### Technologies:
 
 - There are two different versions of this website.
-- One version is made with HTML, CSS, and Bootstrap.
-- One version is made with React.
+- The original version of this website was made with these technologies:
+- Bootstrap, Font Awesome, CSS, JavaScript, jQuery.
 
 responsive web design:
 
