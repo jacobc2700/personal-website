@@ -87,7 +87,7 @@ h1 {
 }
 
 .bio-paragraph {
-  font-size: 1.4em;
+  font-size: 1.5em;
   line-height: 2;
   padding-left: 20px;
   padding-right: 20px;
@@ -140,5 +140,15 @@ i:hover {
 @media only screen and (max-width: 715px) {
   .technology-list {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .bio-paragraph {
+    font-size: 0.9em;
+    line-height: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 50px;
   }
 }
