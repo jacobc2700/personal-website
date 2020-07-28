@@ -291,7 +291,7 @@
         $('.explore-btn').click(function () {
           $([document.documentElement, document.body]).animate(
             {
-              scrollTop: $('#about').offset().top - 150,
+              scrollTop: $('#about').offset().top - 100,
             },
             1000
           );
@@ -301,7 +301,7 @@
           var pageId = $(this).attr('data-page');
           $([document.documentElement, document.body]).animate(
             {
-              scrollTop: $('#' + pageId).offset().top - 150,
+              scrollTop: $('#' + pageId).offset().top - 100,
             },
             1000
           );
