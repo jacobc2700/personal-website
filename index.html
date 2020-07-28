@@ -26,7 +26,7 @@
         <nav class="navigation-bar navbar bg-dark navbar-expand-lg navbar-dark">
           <!-- This div moves the navbar "in" -->
           <div class="container">
-            <a class="navbar-brand" href="">Humboo</a>
+            <a class="navbar-brand" data-page="title" href="">Humboo</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -291,9 +291,9 @@
         $('.explore-btn').click(function () {
           $([document.documentElement, document.body]).animate(
             {
-              scrollTop: $('#about').offset().top - 60,
+              scrollTop: $('#about').offset().top - 150,
             },
-            1500
+            1000
           );
         });
 
@@ -301,7 +301,7 @@
           var pageId = $(this).attr('data-page');
           $([document.documentElement, document.body]).animate(
             {
-              scrollTop: $('#' + pageId).offset().top - 60,
+              scrollTop: $('#' + pageId).offset().top - 150,
             },
             1000
           );
