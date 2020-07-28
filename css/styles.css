@@ -63,6 +63,11 @@ h1 {
 
 /* About section styles */
 
+.bio-span {
+  font-weight: bold;
+  color: #1dd3bd;
+}
+
 #about {
   background-color: #303030;
   text-align: center;
@@ -70,11 +75,11 @@ h1 {
 
 .about-div {
   margin-top: 100px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .about-me-header {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .bio-paragraph {
@@ -82,6 +87,7 @@ h1 {
   line-height: 2;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 50px;
 }
 
 #title {
