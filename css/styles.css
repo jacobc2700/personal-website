@@ -28,6 +28,10 @@ h1 {
 .navigation-bar {
   background: #1d1b1b !important;
   border-bottom: 0.5px solid white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
 }
 
 .nav-link {
