@@ -22,3 +22,4 @@ responsive web design:
   add particle js
   media query, to center the other projects section whenever the technologies list goes away
   button from eng. website that brings you all the way back up
+- could try learning SASS along the way!
