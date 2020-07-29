@@ -91,7 +91,7 @@ h1 {
 }
 
 .about-div {
-  margin-top: 10%;
+  margin-top: 11%;
   margin-bottom: 10%;
 }
 
@@ -163,6 +163,11 @@ i:hover {
     padding-left: 20px;
     padding-right: 20px;
     margin: 50px;
+  }
+
+  .about-div {
+    margin-top: 30%;
+    margin-bottom: 10%;
   }
 }
 
