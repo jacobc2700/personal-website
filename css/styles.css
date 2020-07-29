@@ -87,12 +87,12 @@ h1 {
 #about {
   background-color: #303030;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .about-div {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 200px;
+  margin-bottom: 50px;
 }
 
 .about-me-header {
