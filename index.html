@@ -96,6 +96,154 @@
         </div>
       </section>
 
+      <!-- Modals for projects... -->
+      <div
+        class="modal fade"
+        id="newtonEmployeeSalaries"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Newton Employee Salaries
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Salary Lookup Website
+                  </h6>
+                  <p class="card-text">
+                    A website for viewing the salaries of employees in the city
+                    of Newton, Massachusetts. The technologies that make up the
+                    website include Node.js, Express, and PostgreSQL. The
+                    website is deployed on Heroku with PostgreSQL on AWS (RDS).
+                  </p>
+                  <a href="#" class="card-link">Website</a>
+                  <a href="#" class="card-link">Video</a>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-success"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="newtonPavements"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Newton Pavements
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Road Lookup Website
+                  </h6>
+                  <p class="card-text"></p>
+                  <a href="#" class="card-link">Website</a>
+                  <a href="#" class="card-link">Video</a>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-success"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="coronavirusDashboard"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Newton Employee Salaries
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-muted"></h6>
+                  <p class="card-text"></p>
+                  <a href="#" class="card-link">Website</a>
+                  <a href="#" class="card-link">Video</a>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-success"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Projects -->
       <section id="projects">
         <h1 class="project-header">Projects</h1>
@@ -149,9 +297,14 @@
                     class="list-group-item d-flex justify-content-between align-items-center"
                   >
                     <div>
-                      <a href="https://youtu.be/eYor5dEHkTI"
-                        >Newton Employee Salaries</a
+                      <button
+                        type="button"
+                        class="btn btn-link p-0 m-0 d-inline align-baseline"
+                        data-toggle="modal"
+                        data-target="#newtonEmployeeSalaries"
                       >
+                        Newton Employee Salaries
+                      </button>
                     </div>
 
                     <div class="technology-list">
@@ -171,9 +324,14 @@
                     class="list-group-item d-flex justify-content-between align-items-center"
                   >
                     <div>
-                      <a href="https://youtu.be/uxe2BDUrhhI"
-                        >Newton Pavements</a
+                      <button
+                        type="button"
+                        class="btn btn-link p-0 m-0 d-inline align-baseline"
+                        data-toggle="modal"
+                        data-target="#newtonEmployeeSalaries"
                       >
+                        Newton Pavements
+                      </button>
                     </div>
                     <div class="technology-list">
                       <span class="badge badge-primary badge-pill"
@@ -191,9 +349,14 @@
                     class="list-group-item d-flex justify-content-between align-items-center"
                   >
                     <div>
-                      <a href="https://youtu.be/8eJRk9nEbwI"
-                        >Coronavirus Dashboard</a
+                      <button
+                        type="button"
+                        class="btn btn-link p-0 m-0 d-inline align-baseline"
+                        data-toggle="modal"
+                        data-target="#newtonEmployeeSalaries"
                       >
+                        Coronavirus Dashboard
+                      </button>
                     </div>
                     <div class="technology-list">
                       <span class="badge badge-primary badge-pill"
