@@ -24,4 +24,3 @@ responsive web design:
   button from eng. website that brings you all the way back up
 - could try learning SASS along the way!
   accomploshments section
-- Delete all the target = \_blank
