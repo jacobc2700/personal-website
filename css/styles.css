@@ -28,6 +28,7 @@ h1 {
 
 .navbar-brand {
   font-size: 2em;
+  cursor: pointer;
 }
 
 .navigation-bar {
@@ -43,6 +44,7 @@ h1 {
   font-size: 1.05em;
   text-transform: uppercase;
   color: #fff !important;
+  cursor: pointer;
 }
 
 .nav-link:hover,
