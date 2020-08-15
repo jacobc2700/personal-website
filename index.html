@@ -442,6 +442,13 @@
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/jacobc2700"
+          tabindex="0"
+          data-placement="top"
+          class="hover-icon"
+          data-toggle="popover"
+          data-trigger="hover"
+          title="Dismissible popover"
+          data-content="And here's some amazing content. It's very engaging. Right?"
         >
           <i class="footer-icon fa fa-github"></i>
         </a>
@@ -532,6 +539,8 @@
             1000
           );
         });
+
+        $('.hover-icon').popover({ trigger: 'hover' });
       </script>
     </body>
   </div>
