@@ -181,6 +181,8 @@ i:hover {
   }
 }
 
+/* Tooltips */
+
 .hover-icon {
-  padding-top: 10px;
+  padding-top: 20px;
 }
