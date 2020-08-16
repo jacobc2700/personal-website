@@ -187,3 +187,8 @@ i:hover {
   padding-top: 20px;
   outline: none;
 }
+
+/* Remove border from 'other projects' */
+.modal-body .card {
+  border: none;
+}
