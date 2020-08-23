@@ -20,3 +20,4 @@ My personal website: https://www.thehumboo.com/.
 - Learn how to use SASS?
 - Section for accomplishments?
 - On mobile, the hover should not be there.
+- Use 'rem' instead of px and the rest, rem fpor everything
