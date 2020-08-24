@@ -158,6 +158,10 @@ i.footer-icon:hover {
   text-decoration: none;
 }
 
+#stars {
+  height: 100vh;
+}
+
 .tech-list div span {
   display: block;
 }

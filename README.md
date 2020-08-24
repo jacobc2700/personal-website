@@ -13,7 +13,6 @@ My personal website: https://www.thehumboo.com/.
 
 ### Problems to Fix:
 
-- Even margin on about page.
 - Convert to a React project (code-reuse).
 - Organize styles.
 - Media query for centering other projects (on smaller screens).
