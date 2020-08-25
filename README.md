@@ -15,3 +15,4 @@ My personal website: https://www.thehumboo.com/.
 
 - Organize the code (constant colors and units).
 - Add a dark mode.
+- React project?
