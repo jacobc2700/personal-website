@@ -13,10 +13,4 @@ My personal website: https://www.thehumboo.com/.
 
 ### Problems to Fix:
 
-- Convert to a React project (code-reuse).
-- Organize styles.
-- Media query for centering other projects (on smaller screens).
-- Button that brings you all the way back up.
-- Section for accomplishments?
-- On mobile, the hover should not be there.
-- Use 'rem' instead of px and the rest, rem fpor everything
+- Organize the code (constant colors and units).

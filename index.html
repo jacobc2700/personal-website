@@ -28,6 +28,10 @@
 
   <div id="main-container">
     <body>
+      <!-- Return to top button (bottom right corner) -->
+      <a href="javascript:" id="return-to-top"
+        ><i class="fas fa-arrow-up"></i
+      ></a>
       <!-- Header section -->
       <section id="title">
         <!-- Nav Bar -->
@@ -117,53 +121,57 @@
           <div class="col tech-list-col-container">
             <div class="tech-list">
               <div>
-                <i class="devicon devicon-javascript-plain"></i>
+                <i class="devicon devicon-javascript-plain colored"></i>
                 <span>JavaScript</span>
               </div>
               <div>
-                <i class="devicon devicon-mongodb-plain"></i>
+                <i class="devicon devicon-mongodb-plain colored"></i>
                 <span>MongoDB</span>
               </div>
               <div>
-                <i class="devicon devicon-express-original"></i>
+                <i class="devicon devicon-express-original colored"></i>
                 <span>Express</span>
               </div>
             </div>
             <div class="tech-list">
               <div>
-                <i class="devicon devicon-nodejs-plain"></i>
+                <i class="devicon devicon-nodejs-plain colored"></i>
                 <span>Node.js</span>
               </div>
               <div>
-                <i class="devicon devicon-react-original"></i>
+                <i class="devicon devicon-react-original colored"></i>
                 <span>React</span>
               </div>
               <div>
-                <i class="devicon devicon-html5-plain"></i> <span>HTML</span>
+                <i class="devicon devicon-html5-plain colored"></i>
+                <span>HTML</span>
               </div>
             </div>
             <div class="tech-list">
               <div>
-                <i class="devicon devicon-css3-plain"></i> <span>CSS</span>
+                <i class="devicon devicon-css3-plain colored"></i>
+                <span>CSS</span>
               </div>
               <div>
-                <i class="devicon devicon-bootstrap-plain"></i>
+                <i class="devicon devicon-bootstrap-plain colored"></i>
                 <span>Bootstrap</span>
               </div>
               <div>
-                <i class="devicon devicon-java-plain"></i> <span>Java</span>
+                <i class="devicon devicon-java-plain colored"></i>
+                <span>Java</span>
               </div>
             </div>
             <div class="tech-list">
               <div>
-                <i class="devicon devicon-python-plain"></i> <span>Python</span>
+                <i class="devicon devicon-python-plain colored"></i>
+                <span>Python</span>
               </div>
               <div>
-                <i class="devicon devicon devicon-github-plain"></i>
+                <i class="devicon devicon devicon-github-plain colored"></i>
                 <span>GitHub</span>
               </div>
               <div>
-                <i class="devicon devicon-heroku-original"></i
+                <i class="devicon devicon-heroku-original colored"></i
                 ><span>Heroku</span>
               </div>
             </div>
@@ -1011,6 +1019,23 @@
         });
 
         $('.hover-icon').popover({ trigger: 'hover' });
+
+        $(window).scroll(function () {
+          if ($(this).scrollTop() >= 62) {
+            $('#return-to-top').fadeIn(200);
+          } else {
+            $('#return-to-top').fadeOut(200);
+          }
+        });
+
+        $('#return-to-top').click(function () {
+          $('body,html').animate(
+            {
+              scrollTop: 0,
+            },
+            500
+          );
+        });
       </script>
     </body>
   </div>
