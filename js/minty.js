@@ -6,64 +6,56 @@ function animateBackground() {
   particlesJS('stars', {
     particles: {
       number: {
-        value: 355,
+        value: 80,
         density: {
           enable: true,
-          value_area: 789.1476416322727,
+          value_area: 800,
         },
       },
       color: {
-        value: '#FFB6C1',
+        value: ['#BD10E0', '#B8E986', '#50E3C2', '#FFD300', '#E86363'],
       },
       shape: {
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#FFB6C1',
-        },
-        polygon: {
-          nb_sides: 5,
-        },
-        image: {
-          src: 'img/github.svg',
-          width: 100,
-          height: 100,
+          color: '#b6b2b2',
         },
       },
       opacity: {
-        value: 0.48927153781200905,
+        value: 0.5211089197812949,
         random: false,
         anim: {
           enable: true,
-          speed: 0.2,
-          opacity_min: 0,
+          speed: 1,
+          opacity_min: 0.1,
           sync: false,
         },
       },
       size: {
-        value: 2,
+        value: 8.017060304327615,
         random: true,
         anim: {
           enable: true,
-          speed: 2,
-          size_min: 0,
-          sync: false,
+          speed: 12.181158184520175,
+          size_min: 0.1,
+          sync: true,
         },
       },
       line_linked: {
-        enable: false,
+        enable: true,
         distance: 150,
-        color: '#FFB6C1',
+        color: '#c8c8c8',
         opacity: 0.4,
         width: 1,
       },
       move: {
         enable: true,
-        speed: 0.2,
+        speed: 1,
         direction: 'none',
-        random: true,
+        random: false,
         straight: false,
-        out_mode: 'out',
+        out_mode: 'bounce',
         bounce: false,
         attract: {
           enable: false,
@@ -76,11 +68,11 @@ function animateBackground() {
       detect_on: 'canvas',
       events: {
         onhover: {
-          enable: true,
-          mode: 'bubble',
+          enable: false,
+          mode: 'repulse',
         },
         onclick: {
-          enable: true,
+          enable: false,
           mode: 'push',
         },
         resize: true,
@@ -93,10 +85,10 @@ function animateBackground() {
           },
         },
         bubble: {
-          distance: 83.91608391608392,
-          size: 1,
-          duration: 3,
-          opacity: 1,
+          distance: 400,
+          size: 40,
+          duration: 2,
+          opacity: 8,
           speed: 3,
         },
         repulse: {

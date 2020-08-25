@@ -11,7 +11,7 @@
     <title>Humboo</title>
 
     <!-- Bootstrap Darkly -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" id="bootstrapStyleSheet" href="css/minty.min.css" />
 
     <!-- Personal Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.ico" />
@@ -23,7 +23,7 @@
     />
 
     <!-- Custom styles -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" id="customStyleSheet" href="css/minty.css" />
   </head>
 
   <div id="main-container">
@@ -74,6 +74,9 @@
                   <a class="nav-link" data-page="footer" data-target="#footer"
                     >Links</a
                   >
+                </li>
+                <li class="nav-item">
+                  <button id="css_toggle" title="I'm a tooltip!">Text</button>
                 </li>
               </ul>
             </div>
@@ -994,7 +997,7 @@
       <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
       <!-- Load animations -->
-      <script src="js/animations.js"></script>
+      <script src="js/minty.js"></script>
 
       <!-- Move to another file later -->
       <!-- Scrolls down when you click on explore btn -->
@@ -1035,6 +1038,32 @@
             },
             500
           );
+        });
+
+        $('#css_toggle').click(function () {
+          console.log('d');
+          if (
+            $("link[id='bootstrapStyleSheet']").attr('href') ==
+            'css/minty.min.css'
+          ) {
+            $("link[id='bootstrapStyleSheet']").attr(
+              'href',
+              'css/bootstrap.min.css'
+            );
+          } else {
+            $("link[id='bootstrapStyleSheet']").attr(
+              'href',
+              'css/minty.min.css'
+            );
+          }
+
+          if (
+            $("link[id='customStyleSheet']").attr('href') == 'css/styles.css'
+          ) {
+            $("link[id='customStyleSheet']").attr('href', 'css/minty.css');
+          } else {
+            $("link[id='customStyleSheet']").attr('href', 'css/styles.css');
+          }
         });
       </script>
     </body>
