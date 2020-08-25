@@ -179,6 +179,10 @@ i.footer-icon:hover {
   .technology-list {
     display: none;
   }
+
+  .other-proj-btn-div {
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 500px) {
