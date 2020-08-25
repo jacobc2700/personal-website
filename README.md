@@ -14,3 +14,4 @@ My personal website: https://www.thehumboo.com/.
 ### Problems to Fix:
 
 - Organize the code (constant colors and units).
+- Add a dark mode.
