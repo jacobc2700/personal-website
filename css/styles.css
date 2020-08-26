@@ -297,3 +297,20 @@ i.footer-icon:hover {
   color: #fff;
   top: 5px;
 }
+
+[data-theme='dark'] .dark-mode-icon {
+  display: none;
+}
+
+[data-theme='light'] body {
+  background-color: #fff;
+  color: black;
+}
+
+[data-theme='light'] .light-mode-icon {
+  display: none;
+}
+
+[data-theme='light'] .nav-link {
+  color: yellow !important;
+}
