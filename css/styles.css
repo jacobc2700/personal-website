@@ -302,6 +302,10 @@ i.footer-icon:hover {
   display: none;
 }
 
+[data-theme='dark'] #stars {
+  display: block;
+}
+
 [data-theme='light'] body {
   background-color: #fff;
   color: black;
@@ -311,6 +315,75 @@ i.footer-icon:hover {
   display: none;
 }
 
-[data-theme='light'] .nav-link {
-  color: yellow !important;
+[data-theme='light'] #title {
+  background-image: linear-gradient(
+    141deg,
+    #e0ece4 0%,
+    #f7f2e7 51%,
+    #d8d3cd 75%
+  );
+  /* background-color: #0099FF; */
+}
+
+[data-theme='light'] .navbar {
+  background-color: #5c7cfa !important;
+}
+
+[data-theme='light'] #stars {
+  display: none;
+}
+
+[data-theme='light'] #about {
+  background-image: linear-gradient(
+    141deg,
+    #e0ece4 0%,
+    #f7f2e7 51%,
+    #d8d3cd 75%
+  );
+}
+
+[data-theme='light'] #projects {
+  background-image: linear-gradient(
+    141deg,
+    #e0ece4 0%,
+    #f7f2e7 51%,
+    #d8d3cd 75%
+  );
+}
+
+[data-theme='light'] .card {
+  background-color: #fff;
+}
+
+[data-theme='light'] .explore-btn {
+  background-color: #5c7cfa;
+  border: none;
+}
+
+[data-theme='light'] .previous-projects {
+  background-color: white !important;
+}
+
+[data-theme='light'] #footer {
+  background-image: linear-gradient(
+    141deg,
+    #e0ece4 0%,
+    #f7f2e7 51%,
+    #d8d3cd 75%
+  );
+}
+
+[data-theme='light'] .footer-icon {
+  color: #5c7cfa;
+}
+
+[data-theme='light'] .list-group-item {
+  background-color: white;
+  border: 0.02rem solid gray;
+}
+
+.toggle-mode-btn {
+  background-color: transparent !important;
+  border: none;
+  font-size: 1.2rem;
 }
