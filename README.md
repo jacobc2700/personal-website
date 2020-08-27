@@ -21,4 +21,4 @@ My personal website: https://www.thehumboo.com/.
 - Add a grey border division between sections?
 - Change green to blue for modal buttons (light mode).
 - Footer tool tips (light mode) need to be light.
-- Add different particles for light mode home page (check other branch).
+- Add different particles for light mode home page (check other branch: weird-dark-mode).
