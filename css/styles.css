@@ -316,13 +316,12 @@ i.footer-icon:hover {
 }
 
 [data-theme='light'] #title {
-  background-image: linear-gradient(
-    141deg,
-    #e0ece4 0%,
-    #f7f2e7 51%,
-    #d8d3cd 75%
-  );
+  background-color: #d8d3cd;
   /* background-color: #0099FF; */
+}
+
+[data-theme='light'] section {
+  border-bottom: 1px solid grey;
 }
 
 [data-theme='light'] .navbar {
@@ -334,21 +333,11 @@ i.footer-icon:hover {
 }
 
 [data-theme='light'] #about {
-  background-image: linear-gradient(
-    141deg,
-    #e0ece4 0%,
-    #f7f2e7 51%,
-    #d8d3cd 75%
-  );
+  background-color: #f7f2e7;
 }
 
 [data-theme='light'] #projects {
-  background-image: linear-gradient(
-    141deg,
-    #e0ece4 0%,
-    #f7f2e7 51%,
-    #d8d3cd 75%
-  );
+  background-color: #d8d3cd;
 }
 
 [data-theme='light'] .card {
@@ -365,16 +354,15 @@ i.footer-icon:hover {
 }
 
 [data-theme='light'] #footer {
-  background-image: linear-gradient(
-    141deg,
-    #e0ece4 0%,
-    #f7f2e7 51%,
-    #d8d3cd 75%
-  );
+  background-color: #5c7cfa;
 }
 
 [data-theme='light'] .footer-icon {
-  color: #5c7cfa;
+  color: #fff;
+}
+
+[data-theme='light'] .footer-text {
+  color: #fff;
 }
 
 [data-theme='light'] .list-group-item {
