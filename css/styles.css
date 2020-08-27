@@ -379,7 +379,18 @@ i.footer-icon:hover {
 
 [data-theme='light'] .list-group-item {
   background-color: white;
-  border: 0.02rem solid gray;
+}
+
+[data-theme='light'] .modal-footer {
+  background-color: #fff;
+}
+
+[data-theme='light'] .modal-body {
+  background-color: #fff;
+}
+
+[data-theme='light'] .modal-header {
+  background-color: #fff;
 }
 
 .toggle-mode-btn {
