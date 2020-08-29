@@ -23,3 +23,4 @@ My personal website: https://www.thehumboo.com/.
 - Footer tool tips (light mode) need to be light.
 - Add different particles for light mode home page (check other branch: weird-dark-mode).
 - Just use: #f7f2e7 for the sections.
+- Make sure that all changed light mode styles get re-changed back to dark mode styles (example: particles).
