@@ -162,6 +162,10 @@ i.footer-icon:hover {
   height: 100vh;
 }
 
+#lightParticles {
+  height: 100vh;
+}
+
 .tech-list div span {
   display: block;
 }
@@ -304,6 +308,12 @@ i.footer-icon:hover {
 
 [data-theme='dark'] #stars {
   display: block;
+  visibility: visible;
+}
+
+[data-theme='dark'] #lightParticles {
+  visibility: hidden;
+  display: none;
 }
 
 /* Custom styles for light mode */
@@ -331,6 +341,12 @@ i.footer-icon:hover {
 
 [data-theme='light'] #stars {
   visibility: hidden;
+  display: none;
+}
+
+[data-theme='light'] #lightParticles {
+  display: block;
+  visibility: visible;
 }
 
 [data-theme='light'] a {
@@ -410,6 +426,10 @@ i.footer-icon:hover {
 [data-theme='light'] .close-modal-btn {
   background-color: #7e96f8;
 }
+
+/* [data-theme='light'] #lightParticles {
+  visibility: visible;
+} */
 
 .toggle-mode-btn {
   background-color: transparent !important;

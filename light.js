@@ -13,6 +13,7 @@ function toggleColorMode() {
     document.documentElement.setAttribute('data-theme', 'light');
     updateColorPreference('light');
   }
+  location.reload();
 }
 
 function updateColorPreference(mode) {
