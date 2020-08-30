@@ -306,6 +306,8 @@ i.footer-icon:hover {
   display: block;
 }
 
+/* Custom styles for light mode */
+
 [data-theme='light'] body {
   background-color: #fff;
   color: black;
@@ -329,6 +331,10 @@ i.footer-icon:hover {
 
 [data-theme='light'] #stars {
   visibility: hidden;
+}
+
+[data-theme='light'] a {
+  color: #5c7cfa;
 }
 
 [data-theme='light'] #about {
@@ -391,6 +397,18 @@ i.footer-icon:hover {
 
 [data-theme='light'] .popover-header {
   background: #7e96f8 !important;
+}
+
+[data-theme='light'] .modal-body .card {
+  border: none;
+}
+
+[data-theme='light'] .other-proj-btn-link {
+  color: #7e96f8;
+}
+
+[data-theme='light'] .close-modal-btn {
+  background-color: #7e96f8;
 }
 
 .toggle-mode-btn {

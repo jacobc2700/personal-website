@@ -6,6 +6,7 @@ My personal website: https://www.thehumboo.com/.
 
 - Bootstrap (Darkly) & CSS.
 - JavaScript & jQuery.
+- GitHub Pages.
 - Particles.js.
 - Font Awesome.
 - Devicons.
@@ -20,5 +21,4 @@ My personal website: https://www.thehumboo.com/.
 - Change background color for sections.
 - Add a grey border division between sections?
 - Change green to blue for modal buttons (light mode).
-- Footer tool tips (light mode) need to be light.
 - Add different particles for light mode home page (check other branch: weird-dark-mode).
