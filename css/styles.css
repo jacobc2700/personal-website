@@ -317,7 +317,6 @@ i.footer-icon:hover {
 
 [data-theme='light'] #title {
   background-color: #d8d3cd;
-  /* background-color: #0099FF; */
 }
 
 [data-theme='light'] section {
@@ -329,7 +328,7 @@ i.footer-icon:hover {
 }
 
 [data-theme='light'] #stars {
-  display: none;
+  visibility: hidden;
 }
 
 [data-theme='light'] #about {
@@ -379,6 +378,19 @@ i.footer-icon:hover {
 
 [data-theme='light'] .modal-header {
   background-color: #fff;
+}
+
+[data-theme='light'] .card {
+  border: 1px solid #5c7cfa;
+}
+
+[data-theme='light'] .popover {
+  background: #5c7cfa !important;
+  color: white;
+}
+
+[data-theme='light'] .popover-header {
+  background: #7e96f8 !important;
 }
 
 .toggle-mode-btn {
