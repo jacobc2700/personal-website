@@ -5,6 +5,7 @@ $(document).ready(function () {
   colorMode = document.documentElement.dataset.theme;
 });
 
+//Toggle website between light and dark mode.
 function toggleColorMode() {
   if (colorMode === 'light') {
     document.documentElement.setAttribute('data-theme', 'dark');

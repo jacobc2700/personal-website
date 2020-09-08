@@ -15,12 +15,8 @@ My personal website: https://www.thehumboo.com/.
 ### Problems to Fix:
 
 - Organize the code (constant colors and units).
-- Add a dark mode.
-- React project?
+- React & SASS.
 - Button hover and hold (light mode) needs to be changed.
-- Change background color for sections.
-- Add a grey border division between sections?
 - Change green to blue for modal buttons (light mode).
 - Add different particles for light mode home page (check other branch: weird-dark-mode).
 - Order the previous projects by text length.
-- SASS?
