@@ -427,6 +427,10 @@ i.footer-icon:hover {
   background-color: #7e96f8;
 }
 
+[data-theme='light'] .popover .arrow {
+  display: none;
+}
+
 /* [data-theme='light'] #lightParticles {
   visibility: visible;
 } */
