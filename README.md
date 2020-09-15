@@ -16,8 +16,5 @@ My personal website: https://www.thehumboo.com/.
 
 - Organize the code (constant colors and units).
 - React & SASS.
-- Button hover and hold (light mode) needs to be changed.
-- Change green to blue for modal buttons (light mode).
-- Add different particles for light mode home page (check other branch: weird-dark-mode).
 - Order the previous projects by text length.
-- Maybe just get rid of the bootstrap darkly???
+- Maybe just get rid of the bootstrap darkly??? use the colors though
