@@ -75,15 +75,6 @@
                     >Links</a
                   >
                 </li>
-                <li class="nav-item color-modes-container">
-                  <button
-                    class="toggle-mode-btn btn btn-secondary"
-                    onclick="toggleColorMode()"
-                  >
-                    <i class="far fa-moon dark-mode-icon"></i>
-                    <i class="fas fa-sun light-mode-icon"></i>
-                  </button>
-                </li>
               </ul>
             </div>
           </div>
@@ -92,7 +83,6 @@
         <!-- Particles.js -->
 
         <div id="stars"></div>
-        <div id="lightParticles"></div>
 
         <!-- Title -->
         <div class="row">
@@ -1048,20 +1038,6 @@
         >
           <i class="footer-icon fa fa-medium"></i>
         </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/jacobc2700/jacobc2700.github.io"
-          tabindex="0"
-          data-placement="top"
-          class="hover-icon"
-          data-toggle="popover"
-          data-trigger="hover"
-          title="Source"
-          data-content="Check out the source code for this site."
-        >
-          <i class="footer-icon fa fa-file-code-o"></i>
-        </a>
         <p class="footer-text">Designed by Jacob</p>
       </footer>
 
@@ -1089,10 +1065,6 @@
       <!-- Particles.js -->
       <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
       <script src="js/animations/darkAnimations.js"></script>
-      <script src="js/animations/lightAnimations.js"></script>
-
-      <!-- Light mode and dark mode -->
-      <script src="light.js"></script>
 
       <!-- Move to another file later -->
       <!-- Scrolls down when you click on explore btn -->
@@ -1134,39 +1106,6 @@
             500
           );
         });
-
-        function getInitialColorMode() {
-          const colorPreference = localStorage.getItem('mode');
-          const hasColorPreference = typeof colorPreference === 'string';
-
-          // Check if the user has explicitly chosen light or dark.
-          // If not, this value will be null.
-          if (hasColorPreference) {
-            return colorPreference;
-          }
-
-          // If they haven't been explicit, let's check the media query
-          // mql -> media query list
-          const mql = window.matchMedia('(prefers-color-scheme: dark)');
-          const hasMediaQueryPreference = typeof mql.matches === 'boolean';
-          if (hasMediaQueryPreference) {
-            return mql.matches ? 'dark' : 'light';
-          }
-
-          // If browser/OS that doesn't support color themes, return 'light' as default.
-          return 'dark';
-        }
-
-        function setInitialColorMode(mode) {
-          if (mode == 'dark') {
-            document.documentElement.setAttribute('data-theme', 'dark');
-          } else {
-            document.documentElement.setAttribute('data-theme', 'light');
-          }
-        }
-
-        var mode = getInitialColorMode();
-        setInitialColorMode(mode);
       </script>
     </body>
   </div>
