@@ -80,7 +80,7 @@ ul {
   color: $white-color;
 
   .intro {
-    top: 40%;
+    top: 38%;
     position: absolute;
 
     font-size: 2.2rem;
@@ -95,9 +95,41 @@ ul {
 }
 
 .btn {
-  font-size: 2rem;
+  font-size: 1.25rem;
   background-color: $gray-color;
   color: $white-color;
   text-align: center;
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.4rem;
   cursor: pointer;
+  border: 0.1rem solid $white-color;
+
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    background: lighten($dark-color, 30%);
+  }
+}
+
+.about {
+  height: 100vh;
+  background-color: $gray-color;
+  color: $white-color;
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .biography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+
+    p {
+      padding: 3rem 5rem;
+    }
+  }
 }
