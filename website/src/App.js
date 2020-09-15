@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './components/Navigation';
+import Landing from './components/Landing';
 
 // import './App.css';
 import './scss/style.scss';
@@ -7,7 +8,7 @@ import './scss/style.scss';
 const App = () => {
   return (
     <div className='App'>
-      <Navigation></Navigation>
+      <Landing></Landing>
     </div>
   );
 };

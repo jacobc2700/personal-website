@@ -1,3 +1,5 @@
+@import 'config';
+
 * {
   //Include padding and border in an element's total width and height.
   box-sizing: border-box;
@@ -8,6 +10,11 @@
 
   //Override outlines.
   outline: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 2;
 }
 
 a {
@@ -25,14 +32,14 @@ ul {
   align-items: center;
   width: 100%;
 
+  border-bottom: 1px solid $white-color;
+
+  background-color: $dark-color;
+
   //Separate two flex items.
   justify-content: space-between;
 
   padding: 0.7rem 2rem;
-
-  // &-brand {
-  //   color: yellow;
-  // }
 
   //Keep at top of screen & on top of all content.
   position: fixed;
@@ -46,5 +53,51 @@ ul {
 
   a {
     color: $white-color;
+
+    //Anchor tags within navbar that are hovered...
+    //Same as a:hover.
+    &:hover {
+      color: $green-color;
+    }
   }
+
+  //Navbar brand.
+  h1 a {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
+  ul a {
+    text-transform: uppercase;
+    padding: 0.5rem;
+    margin: 0 0.25rem;
+  }
+}
+
+.landing {
+  height: 100vh;
+  background-color: $dark-color;
+  color: $white-color;
+
+  .intro {
+    top: 40%;
+    position: absolute;
+
+    font-size: 2.2rem;
+
+    //Center.
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+  }
+}
+
+.btn {
+  font-size: 2rem;
+  background-color: $gray-color;
+  color: $white-color;
+  text-align: center;
+  cursor: pointer;
 }
