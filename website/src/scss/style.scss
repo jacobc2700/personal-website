@@ -1,0 +1,50 @@
+* {
+  //Include padding and border in an element's total width and height.
+  box-sizing: border-box;
+
+  //Reset default HTML styles.
+  margin: 0;
+  padding: 0;
+
+  //Override outlines.
+  outline: none;
+}
+
+a {
+  //Remove underline.
+  text-decoration: none;
+}
+
+ul {
+  //Remove bullet points.
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  //Separate two flex items.
+  justify-content: space-between;
+
+  padding: 0.7rem 2rem;
+
+  // &-brand {
+  //   color: yellow;
+  // }
+
+  //Keep at top of screen & on top of all content.
+  position: fixed;
+  z-index: 1;
+  top: 0;
+
+  ul {
+    //You got me moving side to side...
+    display: flex;
+  }
+
+  a {
+    color: $white-color;
+  }
+}

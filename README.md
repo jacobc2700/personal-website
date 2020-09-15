@@ -17,4 +17,4 @@ My personal website: https://www.thehumboo.com/.
 - Organize the code (constant colors and units).
 - React & SASS.
 - Order the previous projects by text length.
-- Maybe just get rid of the bootstrap darkly??? use the colors though
+- Don't use bootstrap
