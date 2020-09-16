@@ -1,4 +1,5 @@
 @import 'config';
+@import 'tooltips';
 
 * {
   //Include padding and border in an element's total width and height.
@@ -209,6 +210,33 @@ ul {
     text-align: center;
     gap: 1rem;
   }
+}
+
+/* Footer */
+
+.footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: $super-dark-color;
+  color: $white-color;
+}
+
+/* Font awesome footer icons */
+.footer-icon {
+  margin: 20px 10px;
+  font-size: 30px;
+  color: white;
+}
+
+/* Designed by Jacob */
+.footer-text {
+  font-size: 20px;
+}
+
+/* Turn font awesome icons green on hover */
+i.footer-icon:hover {
+  color: #00bc8c;
+  text-decoration: none;
 }
 
 @import 'mobile';
