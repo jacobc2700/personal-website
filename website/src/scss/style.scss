@@ -148,4 +148,28 @@ ul {
   height: 100%;
 }
 
+.tech-list div {
+  padding: 0.5rem;
+  font-size: 1.3em;
+}
+
+.technology-list-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  div div {
+    padding: 0.5rem;
+    font-size: 1.3em;
+  }
+
+  div span {
+    display: block;
+  }
+
+  div .devicon {
+    font-size: 4rem;
+  }
+}
+
 @import 'mobile';
