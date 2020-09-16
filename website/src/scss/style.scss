@@ -175,6 +175,8 @@ ul {
   min-height: 100vh;
   background-color: $dark-color;
   color: $white-color;
+  padding-bottom: 8rem;
+  // margin-bottom: 10rem;
 
   .project-title {
     font-size: 3.5rem;
@@ -183,7 +185,7 @@ ul {
   }
 
   .card {
-    border: 1px solid black;
+    // border: 1px solid black;
     background-color: $gray-color;
     border-radius: 0.2rem;
     width: 90%;
@@ -191,6 +193,10 @@ ul {
     text-align: center;
     padding: 1rem;
     margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   .title {
@@ -225,7 +231,7 @@ ul {
 .footer-icon {
   margin: 20px 10px;
   font-size: 30px;
-  color: white;
+  color: $white-color;
 }
 
 /* Designed by Jacob */
