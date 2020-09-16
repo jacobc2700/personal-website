@@ -3,19 +3,21 @@ import React, { Fragment } from 'react';
 const About = () => {
   return (
     <Fragment>
-      <section class='about'>
+      <section className='about'>
         <h1>About Me</h1>
-        <div class='biography'>
+        <div className='biography'>
           <div>
             <p>
-              My name is Jacob Chang and I'm an aspiring software engineer who
-              primary codes with JavaScript, Python, and Java. When I'm not
-              programming, you can find me playing the piano, solving puzzles,
-              or making videos.
+              My name is Jacob Chang and I'm an aspiring software engineer. I'm
+              currently a senior in high school and I love computer programming.
+              I spend my free time developing web applications and learning new
+              technologies. I am currently working on three large-scale projects
+              with JavaScript, Java, and Python. I use JavaScript for my web
+              applications, Java for data structures & algorithms, and Python
+              for my data science, machine learning, and artificial intelligence
+              projects. When I'm not programming, you can find me playing the
+              piano or making videos.
             </p>
-          </div>
-          <div>
-            <p>asdnaksdnkalsdnklasndkladsasd</p>
           </div>
         </div>
       </section>

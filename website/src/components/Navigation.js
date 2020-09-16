@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 const Navigation = () => {
   return (
     <Fragment>
-      <nav class='navbar'>
+      <nav className='navbar'>
         <h1>
           <a href='/#'>Humboo</a>
         </h1>
