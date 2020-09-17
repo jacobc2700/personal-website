@@ -15,7 +15,7 @@
   visibility: hidden;
   opacity: 0;
   left: 50%;
-  bottom: calc(100% + 14px);
+  bottom: calc(100% + 23px);
   pointer-events: none;
   transition: 0.2s;
   will-change: transform;
@@ -251,93 +251,4 @@ button::-moz-focus-inner {
 
 .example-elements button {
   margin-bottom: 20px;
-}
-
-.info-wrapper {
-  flex-grow: 8;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: justify;
-  padding-left: 6%;
-  border-left: 3px solid #35ea95;
-}
-
-.info-wrapper p {
-  color: rgba(255, 255, 255, 0.69);
-}
-.info-wrapper p {
-  max-width: 600px;
-  text-align: justify;
-}
-
-.info-wrapper .title-question {
-  display: block;
-  color: #fff;
-  font-size: 1.36em;
-  font-weight: 500;
-  padding-bottom: 24px;
-}
-
-@media (max-height: 450px) {
-  main {
-    margin: 2rem 0;
-  }
-}
-
-@media (max-width: 800px) {
-  html {
-    font-size: 0.9em;
-  }
-}
-
-/* Thumbnail settings */
-@media (max-width: 750px) {
-  html {
-    /*     box-shadow: inset 0px -13px 0px -7px #0ebeff; */
-    animation-duration: 0.6s;
-    font-size: 1em;
-  }
-  body {
-    display: flex;
-    background: none;
-    height: 100%;
-    margin: 0px;
-  }
-  main {
-    font-size: 1.1em;
-    padding: 6%;
-  }
-  .info-wrapper p:before,
-  .info-wrapper p:after {
-    display: none;
-  }
-  .example-elements {
-    max-width: 150px;
-    font-size: 22px;
-  }
-  .example-elements a,
-  button {
-    display: none;
-  }
-  .example-elements p:before,
-  .example-elements p:after {
-    visibility: visible;
-    opacity: 1;
-  }
-  .example-elements p:before {
-    content: 'Tooltip';
-    font-size: 20px;
-    transform: translate(-50%, -5px) scale(1);
-  }
-  .example-elements p:after {
-    transform: translate(-50%, -1px) scaleY(1);
-  }
-
-  [data-tooltip]:after {
-    bottom: calc(100% + 3px);
-  }
-  [data-tooltip]:after {
-    border-width: 7px 7px 0px 7px;
-  }
 }

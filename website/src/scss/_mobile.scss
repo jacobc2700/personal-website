@@ -16,6 +16,10 @@
     font-size: 2.5rem;
   }
 
+  .projects .project-title {
+    font-size: 2.5rem;
+  }
+
   .intro .header {
     font-size: 2.5rem;
   }
@@ -30,5 +34,19 @@
 
   .technology-list-container div div {
     padding: 0rem;
+  }
+
+  .about {
+    .biography {
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .card {
+    h1 {
+      font-size: 1.9rem;
+    }
   }
 }
