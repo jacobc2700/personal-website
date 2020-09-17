@@ -28,32 +28,32 @@ const About = () => {
               <span>MongoDB</span>
             </div>
             <div>
+              <i className='devicon devicon-mongodb-plain colored'></i>
+              <span>MongoDB</span>
+            </div>
+            <div>
               <i className='devicon devicon-express-original colored'></i>
               <span>Express</span>
             </div>
+          </div>
+          <div>
             <div>
-              <i className='devicon devicon-nodejs-plain colored'></i>
-              <span>Node.js</span>
+              <i className='devicon devicon-sass-plain colored'></i>
+              <span>Express</span>
+            </div>
+            <div>
+              <i className='devicon devicon-sass-plain colored'></i>
+              <span>Sass</span>
+            </div>
+            <div>
+              <i className='devicon devicon-sass-plain colored'></i>
+              <span>Sass</span>
             </div>
           </div>
           <div>
             <div>
               <i className='devicon devicon-sass-plain colored'></i>
-              <span>Sass</span>
-            </div>
-            <div>
-              <i className='devicon devicon-sass-plain colored'></i>
-              <span>Sass</span>
-            </div>
-            <div>
-              <i className='devicon devicon-sass-plain colored'></i>
-              <span>Sass</span>
-            </div>
-          </div>
-          <div>
-            <div>
-              <i className='devicon devicon-sass-plain colored'></i>
-              <span>Sass</span>
+              <span>React</span>
             </div>
             <div>
               <i className='devicon devicon-sass-plain colored'></i>
@@ -67,7 +67,7 @@ const About = () => {
           <div>
             <div>
               <i className='devicon devicon devicon-github-plain colored'></i>
-              <span>GitHub</span>
+              <span>Node.js</span>
             </div>
             <div>
               <i className='devicon devicon-heroku-original colored'></i>

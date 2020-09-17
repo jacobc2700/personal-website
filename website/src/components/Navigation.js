@@ -9,16 +9,44 @@ const Navigation = () => {
         </h1>
         <ul>
           <li>
-            <a href='/#'>Home</a>
+            <a
+              href='/#'
+              className='nav-link'
+              data-page='landing'
+              data-target='.landing'
+            >
+              Home
+            </a>
           </li>
           <li>
-            <a href='/#'>About</a>
+            <a
+              href='/#'
+              className='nav-link'
+              data-page='about'
+              data-target='.about'
+            >
+              About
+            </a>
           </li>
           <li>
-            <a href='/#'>Projects</a>
+            <a
+              href='/#'
+              className='nav-link'
+              data-page='projects'
+              data-target='.projects'
+            >
+              Projects
+            </a>
           </li>
           <li>
-            <a href='/#'>Links</a>
+            <a
+              href='/#'
+              className='nav-link'
+              data-page='footer'
+              data-target='.footer'
+            >
+              Links
+            </a>
           </li>
         </ul>
       </nav>
