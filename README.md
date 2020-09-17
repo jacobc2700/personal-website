@@ -17,3 +17,5 @@ My personal website: https://www.thehumboo.com/ (deployed on GitHub Pages).
 - move navigation bar items in
 - mwedia query for nav bar when its smaller
 - Remove text for technologies, on media query
+- scroll is messed up on mobile
+- remove hover effect on mobile for footer icons
