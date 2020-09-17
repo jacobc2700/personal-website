@@ -1,20 +1,19 @@
 # jacobc2700.github.io
 
-My personal website: https://www.thehumboo.com/.
+My personal website: https://www.thehumboo.com/ (deployed on GitHub Pages).
 
 ### Technologies:
 
-- Bootstrap (Darkly) & CSS.
-- JavaScript & jQuery.
-- GitHub Pages.
-- Particles.js.
-- Font Awesome.
-- Devicons.
-- HTML.
+- Particles: https://github.com/VincentGarreau/particles.js/.
+- Font Awesome: https://fontawesome.com/.
+- Devicons: https://devicon.dev/.
+- Sass: https://sass-lang.com/.
+- React: https://reactjs.org/.
 
-### Problems to Fix:
+### Fix:
 
-- Organize the code (constant colors and units).
-- React & SASS.
-- Order the previous projects by text length.
-- Don't use bootstrap
+- visibility hidden for the return to top button on media query
+- change all pixes to rem
+- move navigation bar items in
+- mwedia query for nav bar when its smaller
+- Remove text for technologies, on media query
