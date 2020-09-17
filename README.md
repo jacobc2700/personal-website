@@ -2,6 +2,13 @@
 
 My personal website: https://www.thehumboo.com/ (deployed on GitHub Pages).
 
+### Usage:
+
+- `git clone`.
+- `npm install`.
+- `npm start`.
+- Go to localhost:3000.
+
 ### Technologies:
 
 - Particles: https://github.com/VincentGarreau/particles.js/.
@@ -17,5 +24,5 @@ My personal website: https://www.thehumboo.com/ (deployed on GitHub Pages).
 - move navigation bar items in
 - mwedia query for nav bar when its smaller
 - Remove text for technologies, on media query
-- scroll is messed up on mobile
+- scroll is messed up on mobile: it's becauyse i changed the font size of the navbar on media query
 - remove hover effect on mobile for footer icons
