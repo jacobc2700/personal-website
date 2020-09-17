@@ -2,12 +2,24 @@
 
 My personal website: https://www.thehumboo.com/ (deployed on GitHub Pages).
 
-### Usage:
+### Deployment:
 
-- `git clone`.
-- `npm install`.
-- `npm start`.
-- `npm run deploy`.
+- Clone the repository: `git clone https://github.com/jacobc2700/jacobc2700.github.io.git`.
+- Run `npm install` in the root directory.
+- Run `npm start` in the root directory.
+- Go to `localhost:3000`.
+- Make changes to the code.
+- Deployment steps:
+
+```
+npm run deploy
+git add .
+git commit -m "Commit Message"
+git push origin master
+```
+
+- Go to the repository settings and set the custom domain to `www.thehumboo.com` (enforce HTTPS).
+- The updated website should be live.
 
 ### Technologies:
 
