@@ -1,7 +1,34 @@
-// media query for the margin for projects/
 @media (max-width: 1500px) {
   .about .biography p {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .return-to-top {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 550px) {
+  .about h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro .header {
+    font-size: 2.5rem;
+  }
+
+  .technology-list-container div .devicon {
+    font-size: 2rem;
+  }
+
+  .devicon-label {
+    visibility: hidden;
+  }
+
+  .technology-list-container div div {
+    padding: 0rem;
   }
 }

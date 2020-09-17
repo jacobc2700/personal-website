@@ -160,6 +160,10 @@ ul {
   div div {
     padding: 0.5rem 1.2rem;
     font-size: 1.3em;
+
+    .devicon-label {
+      font-family: 'Lato' !important;
+    }
   }
 
   div span {
@@ -205,8 +209,12 @@ ul {
 
   a {
     text-decoration: none;
-    font-size: 22px;
-    color: green;
+    font-size: 1rem;
+    color: $green-color;
+
+    &:hover {
+      color: darken(#007053, 5%);
+    }
   }
 
   .card-links {
@@ -245,7 +253,6 @@ i.footer-icon:hover {
   text-decoration: none;
 }
 
-/* scroll to top of page button styles*/
 .return-to-top {
   z-index: 10;
   position: fixed;
@@ -267,6 +274,7 @@ i.footer-icon:hover {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .return-to-top i {
   color: #fff;
   margin: 0;
@@ -280,12 +288,19 @@ i.footer-icon:hover {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .return-to-top:hover {
   background: rgba(0, 0, 0, 0.9);
 }
+
 .return-to-top:hover i {
-  color: #fff;
+  color: $white-color;
   top: 5px;
+}
+
+//Express devicon.
+.devicon-express-original.colored {
+  color: rgb(139, 139, 139);
 }
 
 @import 'mobile';
