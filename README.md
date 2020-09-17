@@ -7,7 +7,7 @@ My personal website: https://www.thehumboo.com/ (deployed on GitHub Pages).
 - `git clone`.
 - `npm install`.
 - `npm start`.
-- Go to localhost:3000.
+- `npm run deploy`.
 
 ### Technologies:
 
@@ -26,3 +26,4 @@ My personal website: https://www.thehumboo.com/ (deployed on GitHub Pages).
 - Remove text for technologies, on media query
 - scroll is messed up on mobile: it's becauyse i changed the font size of the navbar on media query
 - remove hover effect on mobile for footer icons
+- test
