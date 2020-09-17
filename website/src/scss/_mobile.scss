@@ -11,6 +11,17 @@
   }
 }
 
+@media (max-width: 600px) {
+  .navbar h1 a {
+    font-size: 1.5rem;
+  }
+
+  .navbar ul li a.nav-link {
+    font-size: 0.8rem;
+    padding: 0;
+  }
+}
+
 @media (max-width: 550px) {
   .about h1 {
     font-size: 2.5rem;
