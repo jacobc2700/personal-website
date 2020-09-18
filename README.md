@@ -31,11 +31,13 @@ git push origin master
 
 ### Fix:
 
-- visibility hidden for the return to top button on media query
-- change all pixes to rem
+- change all pixels to rem
 - move navigation bar items in
-- mwedia query for nav bar when its smaller
+- media query for nav bar when its smaller
 - Remove text for technologies, on media query
 - scroll is messed up on mobile: it's becauyse i changed the font size of the navbar on media query
 - remove hover effect on mobile for footer icons
-- test
+- open footer links in new tabs
+- clean tooltips.scss file
+- website and github links no padding on mobile
+- increase top/bottom padding on tech list
