@@ -42,3 +42,5 @@ git push origin master
 - website and github links no padding on mobile
 - increase top/bottom padding on tech list
 - add: "web, mobile, and desktop" for js description
+- react markdown blog: https://www.youtube.com/watch?v=gT1v33oA1gI
+- Dark mode
