@@ -41,3 +41,4 @@ git push origin master
 - clean tooltips.scss file
 - website and github links no padding on mobile
 - increase top/bottom padding on tech list
+- add: "web, mobile, and desktop" for js description
