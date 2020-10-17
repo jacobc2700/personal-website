@@ -1,6 +1,6 @@
 # jacobc2700.github.io
 
-My personal website: https://www.thehumboo.com/ (deployed on GitHub Pages).
+Check out my personal website: https://www.thehumboo.com/.
 
 ### Deployment:
 
@@ -19,11 +19,12 @@ git push origin master
 ```
 
 - Go to the repository settings and set the custom domain to `www.thehumboo.com` (enforce HTTPS).
-- The updated website should be live.
+- The updated website should be live: https://www.thehumboo.com/.
 
 ### Technologies:
 
 - Particles: https://github.com/VincentGarreau/particles.js/.
+- GitHub Pages: https://pages.github.com/.
 - Font Awesome: https://fontawesome.com/.
 - Devicons: https://devicon.dev/.
 - Sass: https://sass-lang.com/.
@@ -31,16 +32,6 @@ git push origin master
 
 ### Fix:
 
-- change all pixels to rem
-- move navigation bar items in
-- media query for nav bar when its smaller
-- Remove text for technologies, on media query
-- scroll is messed up on mobile: it's becauyse i changed the font size of the navbar on media query
 - remove hover effect on mobile for footer icons
-- open footer links in new tabs
 - clean tooltips.scss file
-- website and github links no padding on mobile
-- increase top/bottom padding on tech list
-- add: "web, mobile, and desktop" for js description
-- react markdown blog: https://www.youtube.com/watch?v=gT1v33oA1gI
 - Dark mode
