@@ -33,5 +33,3 @@ git push origin master
 ### Fix:
 
 - remove hover effect on mobile for footer icons
-- clean tooltips.scss file
-- Dark mode

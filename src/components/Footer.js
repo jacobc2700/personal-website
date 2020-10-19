@@ -57,7 +57,7 @@ const Footer = () => {
           <i className='footer-icon fa fa-medium'></i>
         </a>
 
-        <p className='footer-text'>Designed by Jacob Chang</p>
+        <p className='footer-text'>Designed by Jacob</p>
       </footer>
     </Fragment>
   );
