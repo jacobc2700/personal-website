@@ -33,3 +33,4 @@ git push origin master
 ### Fix:
 
 - remove hover effect on mobile for footer icons
+- add markdown style blog
