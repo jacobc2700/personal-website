@@ -1,6 +1,16 @@
 import React, { Fragment } from 'react';
 
-const Navigation = () => {
+const Navigation = (props) => {
+  function changeTheme() {
+    if (props.theme === 'light') {
+      props.setTheme('dark');
+      console.log('dark');
+    } else {
+      props.setTheme('light');
+      console.log('light');
+    }
+  }
+
   return (
     <Fragment>
       <nav className='navbar'>
@@ -47,6 +57,9 @@ const Navigation = () => {
             >
               Links
             </a>
+          </li>
+          <li>
+            <button onClick={changeTheme}>toggle</button>
           </li>
         </ul>
       </nav>
