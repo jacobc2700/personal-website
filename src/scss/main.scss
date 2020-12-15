@@ -1,0 +1,20 @@
+// @import global_stlyes
+@import 'global';
+
+  .dark {
+  $super-dark-color: #1d1b1b;
+  $dark-color: #222;
+  $white-color: #fff;
+  $gray-color: #303030;
+  $green-color: #00bc8c;
+  @import  'theme';
+  }
+
+  .light {
+  $super-dark-color: yellow;
+  $dark-color: white;
+  $white-color: black;
+  $gray-color:green;
+  $green-color: purple;
+  @import 'theme';
+  }

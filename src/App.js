@@ -4,15 +4,17 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
-import './scss/style.scss';
+import './scss/main.scss';
 
 const App = () => {
   return (
-    <div className='App'>
-      <Landing></Landing>
-      <About></About>
-      <Projects></Projects>
-      <Footer></Footer>
+    <div className={'dark'}>
+      <div className='App'>
+        <Landing></Landing>
+        <About></About>
+        <Projects></Projects>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };
