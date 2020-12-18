@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react';
+import { BsSun } from 'react-icons/bs';
+import { BiMoon } from 'react-icons/bi';
 
 const Navigation = () => {
   return (
@@ -46,6 +48,11 @@ const Navigation = () => {
               data-target='.footer'
             >
               Links
+            </a>
+          </li>
+          <li>
+            <a href='/#'>
+              <BiMoon />
             </a>
           </li>
         </ul>

@@ -1,20 +1,59 @@
-// @import global_stlyes
 @import 'global';
 
-  .dark {
-  $super-dark-color: #1d1b1b;
-  $dark-color: #222;
-  $white-color: #fff;
+
+//Global colors
+// $high-dark-color: #1d1b1b;
+// $medium-dark-color: #222;
+// $gray-color: #303030;
+// $green-color: #00bc8c;
+// $white-color: #fff;
+
+//Dark mode colors.
+.dark {
+
+    //Global colors
+
+  $high-dark-color: #1d1b1b;
+  $medium-dark-color: #222;
   $gray-color: #303030;
   $green-color: #00bc8c;
-  @import  'theme';
-  }
+  $dark-green-color: #007053;
+  $white-color: #fff;
 
-  .light {
-  $super-dark-color: yellow;
-  $dark-color: white;
-  $white-color: black;
-  $gray-color:green;
-  $green-color: purple;
+  
+  @import  'theme';
+}
+
+//Light mode colors.
+.light {
+   //Global colors
+
+   $high-dark-color: #1d1b1b;
+   $medium-dark-color: #222;
+   $gray-color: #303030;
+   $green-color: #00bc8c;
+   $dark-green-color: #007053;
+   $white-color: #fff;
+
   @import 'theme';
-  }
+}
+
+// $nav-bg-color
+// $nav-border-bottom-color
+// $nav-link-color
+// $nav-link-hover-color
+// $landing-bg-color
+// $landing-text-color
+// $button-bg-color
+// $button-text-color
+// $button-border-color
+// $button-hover-bg-lighten-color
+// $about-bg-color
+// $about-text-color
+// $projects-bg-color
+// $projects-text-color
+// $project-card-bg-color
+// $project-link-color
+// $project-hover-darken-color
+// $footer-bg-color
+// $footer-text-color

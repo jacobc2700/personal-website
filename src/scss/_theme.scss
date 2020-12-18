@@ -1,4 +1,3 @@
-// @import 'config';
 @import 'tooltips';
 
 a {
@@ -19,7 +18,7 @@ ul {
 
   border-bottom: 1px solid $white-color;
 
-  background-color: $dark-color;
+  background-color: $medium-dark-color;
 
   //Separate two flex items.
   justify-content: space-between;
@@ -61,7 +60,7 @@ ul {
 
 .landing {
   height: 100vh;
-  background-color: $dark-color;
+  background-color: $medium-dark-color;
   color: $white-color;
 
   .intro {
@@ -92,7 +91,7 @@ ul {
   transition: all 0.2s ease-in;
 
   &:hover {
-    background: lighten($dark-color, 30%);
+    background: lighten($medium-dark-color, 30%);
   }
 }
 
@@ -161,7 +160,7 @@ ul {
 
 .projects {
   min-height: 100vh;
-  background-color: $dark-color;
+  background-color: $medium-dark-color;
   color: $white-color;
   padding-bottom: 8rem;
   // margin-bottom: 10rem;
@@ -187,8 +186,9 @@ ul {
     }
   }
 
+  // should be gray color
   .title {
-    color: grey;
+    color: $gray-color;
   }
 
   a {
@@ -197,7 +197,7 @@ ul {
     color: $green-color;
 
     &:hover {
-      color: darken(#007053, 5%);
+      color: darken($dark-green-color, 5%);
     }
   }
 
@@ -213,7 +213,7 @@ ul {
 .footer {
   padding: 7% 15%;
   text-align: center;
-  background-color: $super-dark-color;
+  background-color: $high-dark-color;
   color: $white-color;
 }
 
@@ -231,7 +231,7 @@ ul {
 
 /* Turn font awesome icons green on hover */
 i.footer-icon:hover {
-  color: #00bc8c;
+  color: $green-color;
   text-decoration: none;
 }
 
