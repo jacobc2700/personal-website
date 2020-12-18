@@ -1,0 +1,18 @@
+//Includes styles that apply to all elements on the page.
+
+* {
+    //Include padding and border in an element's total width and height.
+    box-sizing: border-box;
+  
+    //Reset default HTML styles.
+    margin: 0;
+    padding: 0;
+  
+    //Override outlines.
+    outline: none;
+}
+  
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+}

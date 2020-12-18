@@ -35,3 +35,4 @@ git push origin master
 - remove hover effect on mobile for footer icons
 - add markdown style blog
 - remove twitter
+- issue: the bottom right button disappears when importing global styles...

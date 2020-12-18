@@ -1,0 +1,28 @@
+@import 'global';
+
+//Global colors.
+// $high-dark-color: #1d1b1b;
+// $medium-dark-color: #222;
+// $gray-color: #303030;
+// $green-color: #00bc8c;
+// $dark-green-color: #007053;
+// $white-color: #fff;
+
+$super-dark-color: #1d1b1b;
+$dark-color: #222;
+$white-color: #fff;
+$gray-color: #303030;
+$green-color: #00bc8c;
+
+//Dark mode colors.
+.dark {
+
+  
+  @import 'styles';
+}
+
+//Light mode colors.
+.light {
+
+  @import 'styles';
+}
