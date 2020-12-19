@@ -1,22 +1,4 @@
-@import 'config';
 @import 'tooltips';
-
-* {
-  //Include padding and border in an element's total width and height.
-  box-sizing: border-box;
-
-  //Reset default HTML styles.
-  margin: 0;
-  padding: 0;
-
-  //Override outlines.
-  outline: none;
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-  line-height: 2;
-}
 
 a {
   //Remove underline.
@@ -36,7 +18,7 @@ ul {
 
   border-bottom: 1px solid $white-color;
 
-  background-color: $dark-color;
+  background-color: $medium-dark-color;
 
   //Separate two flex items.
   justify-content: space-between;
@@ -74,11 +56,20 @@ ul {
     padding: 0.5rem;
     margin: 0 0.25rem;
   }
+
+  .toggleThemeButton {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: $white-color;
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
 }
 
 .landing {
   height: 100vh;
-  background-color: $dark-color;
+  background-color: $medium-dark-color;
   color: $white-color;
 
   .intro {
@@ -109,14 +100,17 @@ ul {
   transition: all 0.2s ease-in;
 
   &:hover {
-    background: lighten($dark-color, 30%);
+    background: lighten($medium-dark-color, 30%);
   }
 }
 
 .about {
   min-height: 100vh;
-  background-color: $gray-color;
-  color: $white-color;
+  //change to pure white color
+  background-color: $about-bg-color;
+
+  //Change to pure black color
+  color: $about-text-color;
 
   h1 {
     font-size: 3.5rem;
@@ -178,8 +172,10 @@ ul {
 
 .projects {
   min-height: 100vh;
-  background-color: $dark-color;
-  color: $white-color;
+  //change to #f5f5f5
+  background-color: $project-bg-color;
+  //change to black
+  color: $project-text-color;
   padding-bottom: 8rem;
   // margin-bottom: 10rem;
 
@@ -190,8 +186,11 @@ ul {
   }
 
   .card {
-    // border: 1px solid black;
-    background-color: $gray-color;
+    //change to black
+    border: 1px solid $project-card-border-color;
+    
+    //change to white
+    background-color: $project-card-bg-color;
     border-radius: 0.2rem;
     width: 90%;
     margin: auto;
@@ -230,7 +229,7 @@ ul {
 .footer {
   padding: 7% 15%;
   text-align: center;
-  background-color: $super-dark-color;
+  background-color: $high-dark-color;
   color: $white-color;
 }
 
@@ -248,53 +247,8 @@ ul {
 
 /* Turn font awesome icons green on hover */
 i.footer-icon:hover {
-  color: #00bc8c;
+  color: $green-color;
   text-decoration: none;
-}
-
-.return-to-top {
-  z-index: 10;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.7);
-  width: 50px;
-  height: 50px;
-  display: block;
-  text-decoration: none;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  border-radius: 35px;
-  display: none;
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.return-to-top i {
-  color: #fff;
-  margin: 0;
-  position: relative;
-  left: 16px;
-  top: 13px;
-  font-size: 19px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.return-to-top:hover {
-  background: rgba(0, 0, 0, 0.9);
-}
-
-.return-to-top:hover i {
-  color: $white-color;
-  top: 5px;
 }
 
 //Express devicon.

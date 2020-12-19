@@ -2,11 +2,11 @@ import React, { Fragment } from 'react';
 import Navigation from './Navigation';
 import Particles from 'react-particles-js';
 
-const Landing = () => {
+const Landing = (props) => {
   return (
     <Fragment>
       <section className='landing'>
-        <Navigation></Navigation>
+        <Navigation theme={props.theme} setTheme={props.setTheme}></Navigation>
 
         <div className='stars'>
           <Particles

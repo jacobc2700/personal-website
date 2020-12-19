@@ -27,6 +27,7 @@ git push origin master
 - GitHub Pages: https://pages.github.com/.
 - Font Awesome: https://fontawesome.com/.
 - Devicons: https://devicon.dev/.
+- Icons: https://react-icons.github.io/react-icons.
 - Sass: https://sass-lang.com/.
 - React: https://reactjs.org/.
 
@@ -34,4 +35,3 @@ git push origin master
 
 - remove hover effect on mobile for footer icons
 - add markdown style blog
-- remove twitter
