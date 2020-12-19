@@ -11,7 +11,7 @@ const App = () => {
   const [theme, setTheme] = useState('dark');
 
   return (
-    <div className={theme}>
+    <div className={theme ? theme : 'dark'}>
       <div className='App'>
         <Landing theme={theme} setTheme={setTheme}></Landing>
         <About></About>
