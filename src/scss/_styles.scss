@@ -18,7 +18,7 @@ ul {
 
   border-bottom: 1px solid $white-color;
 
-  background-color: $dark-color;
+  background-color: $medium-dark-color;
 
   //Separate two flex items.
   justify-content: space-between;
@@ -60,7 +60,7 @@ ul {
 
 .landing {
   height: 100vh;
-  background-color: $dark-color;
+  background-color: $medium-dark-color;
   color: $white-color;
 
   .intro {
@@ -91,17 +91,17 @@ ul {
   transition: all 0.2s ease-in;
 
   &:hover {
-    background: lighten($dark-color, 30%);
+    background: lighten($medium-dark-color, 30%);
   }
 }
 
 .about {
   min-height: 100vh;
   //change to pure white color
-  background-color: white;
+  background-color: $about-bg-color;
 
   //Change to pure black color
-  color: black;
+  color: $about-text-color;
 
   h1 {
     font-size: 3.5rem;
@@ -164,9 +164,9 @@ ul {
 .projects {
   min-height: 100vh;
   //change to #f5f5f5
-  background-color: #f5f5f5;
+  background-color: $project-bg-color;
   //change to black
-  color: black;
+  color: $project-text-color;
   padding-bottom: 8rem;
   // margin-bottom: 10rem;
 
@@ -178,10 +178,10 @@ ul {
 
   .card {
     //change to black
-    border: 1px solid #D3D3D3;
+    border: 1px solid $project-card-border-color;
     
     //change to white
-    background-color: white;
+    background-color: $project-card-bg-color;
     border-radius: 0.2rem;
     width: 90%;
     margin: auto;
@@ -220,7 +220,7 @@ ul {
 .footer {
   padding: 7% 15%;
   text-align: center;
-  background-color: $super-dark-color;
+  background-color: $high-dark-color;
   color: $white-color;
 }
 
@@ -238,7 +238,7 @@ ul {
 
 /* Turn font awesome icons green on hover */
 i.footer-icon:hover {
-  color: #00bc8c;
+  color: $green-color;
   text-decoration: none;
 }
 
