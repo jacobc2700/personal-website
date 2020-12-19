@@ -1,15 +1,34 @@
 import React, { Fragment } from 'react';
 import { BsSun } from 'react-icons/bs';
 import { FiMoon } from 'react-icons/fi';
+import { useEffect } from 'react';
 
 const Navigation = (props) => {
+  useEffect(() => {
+    props.setTheme(localStorage.getItem('theme'));
+  }, []);
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    console.log('d');
+    if (props.theme === 'light') {
+      localStorage.setItem('theme', 'dark');
+      props.setTheme('dark');
+    } else {
+      localStorage.setItem('theme', 'light');
+      props.setTheme('light');
+    }
+    // localStorage.setItem('theme', theme);
+    // setTheme(theme);
+  };
+
   function changeTheme() {
     if (props.theme === 'light') {
       props.setTheme('dark');
     } else {
       props.setTheme('light');
     }
-    console.log(props.theme);
+    // console.log(props.theme);
   }
 
   return (
@@ -60,7 +79,7 @@ const Navigation = (props) => {
             </a>
           </li>
           <li>
-            <button onClick={changeTheme}>
+            <button onClick={handleClick}>
               <BsSun />
               {/* {props.theme} */}
             </button>
