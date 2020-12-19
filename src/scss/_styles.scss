@@ -56,6 +56,15 @@ ul {
     padding: 0.5rem;
     margin: 0 0.25rem;
   }
+
+  .toggleThemeButton {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: $white-color;
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
 }
 
 .landing {

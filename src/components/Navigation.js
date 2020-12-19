@@ -18,8 +18,6 @@ const Navigation = (props) => {
       localStorage.setItem('theme', 'light');
       props.setTheme('light');
     }
-    // localStorage.setItem('theme', theme);
-    // setTheme(theme);
   };
 
   function changeTheme() {
@@ -31,11 +29,18 @@ const Navigation = (props) => {
     // console.log(props.theme);
   }
 
+  const icon =
+    localStorage.getItem('theme') === 'light' ? <BsSun /> : <FiMoon />;
+  // console.log(localStorage.getItem('theme'));
+
   return (
     <Fragment>
       <nav className='navbar'>
         <h1>
           <a href='/#'>Humboo</a>
+          <button className={'toggleThemeButton'} onClick={handleClick}>
+            {icon}
+          </button>
         </h1>
         <ul>
           <li>
@@ -78,12 +83,11 @@ const Navigation = (props) => {
               Links
             </a>
           </li>
-          <li>
-            <button onClick={handleClick}>
-              <BsSun />
-              {/* {props.theme} */}
+          {/* <li>
+            <button className={'toggleThemeButton'} onClick={handleClick}>
+              {icon}
             </button>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </Fragment>
