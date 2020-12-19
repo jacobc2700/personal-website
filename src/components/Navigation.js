@@ -1,6 +1,17 @@
 import React, { Fragment } from 'react';
+import { BsSun } from 'react-icons/bs';
+import { FiMoon } from 'react-icons/fi';
 
-const Navigation = () => {
+const Navigation = (props) => {
+  function changeTheme() {
+    if (props.theme === 'light') {
+      props.setTheme('dark');
+    } else {
+      props.setTheme('light');
+    }
+    console.log(props.theme);
+  }
+
   return (
     <Fragment>
       <nav className='navbar'>
@@ -47,6 +58,12 @@ const Navigation = () => {
             >
               Links
             </a>
+          </li>
+          <li>
+            <button onClick={changeTheme}>
+              <BsSun />
+              {/* {props.theme} */}
+            </button>
           </li>
         </ul>
       </nav>
