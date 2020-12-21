@@ -83,6 +83,16 @@ const Navigation = (props) => {
               Links
             </a>
           </li>
+          <li>
+            <a
+              href='/#'
+              className='nav-link'
+              data-page='footer'
+              data-target='.footer'
+            >
+              😀
+            </a>
+          </li>
           {/* <li>
             <button className={'toggleThemeButton'} onClick={handleClick}>
               {icon}

@@ -1,11 +1,9 @@
 import React from 'react';
-import Landing from './components/Landing';
-import About from './components/About';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
+import Landing from './Landing';
+import About from './About';
+import Projects from './Projects';
+import Footer from './Footer';
 import { useState } from 'react';
-
-import './scss/main.scss';
 
 const App = () => {
   const [theme, setTheme] = useState('dark');
