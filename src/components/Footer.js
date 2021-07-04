@@ -38,17 +38,8 @@ const Footer = () => {
         >
           <i className='footer-icon fa fa-envelope'></i>
         </a>
-        <a
-          href='https://medium.com/@jacobchang124'
-          data-tooltip='Medium'
-          data-tooltip-location='top'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <i className='footer-icon fa fa-medium'></i>
-        </a>
 
-        <p className='footer-text'>Designed by Jacob</p>
+        <p className='footer-text'>Designed by Jacob C.</p>
       </footer>
     </Fragment>
   );
