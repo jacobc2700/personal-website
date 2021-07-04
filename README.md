@@ -35,3 +35,4 @@ git push origin master
 
 - remove hover effect on mobile for footer icons
 - add markdown style blog
+- make more components without duplicate code

@@ -1,0 +1,61 @@
+.navbar {
+  .blog-header {
+    font-size: 2.5rem;
+    display: flex;
+   align-items: center;
+  //  vertical-align: middle;
+  gap: 1rem;
+  }
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 87.375px;
+  
+    border-bottom: 1px solid #fff;
+  
+    background-color: #fff;
+  
+    //Separate two flex items.
+    justify-content: space-between;
+  
+    padding: 0.7rem 20rem;
+  
+    //Keep at top of screen & on top of all content.
+    position: fixed;
+    z-index: 1;
+    top: 0;
+  
+    ul {
+      //You got me moving side to side...
+      display: flex;
+    }
+  
+    a {
+      color: black;
+      text-decoration: none;
+  
+      //Anchor tags within navbar that are hovered...
+      //Same as a:hover.
+      &:hover {
+        color: #fff;
+      }
+    }
+  
+    //Navbar brand.
+    h1 a {
+      font-size: 2rem;
+      font-weight: normal;
+    }
+  
+    ul a {
+      padding: 0.5rem;
+      margin: 0 0.25rem;
+      
+    }
+
+    ul {
+      list-style: none;
+    }
+  
+  }
